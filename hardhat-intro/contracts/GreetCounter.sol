@@ -1,3 +1,4 @@
+//SPDX-License-Identifier: Unlicensed
 pragma solidity ^0.7.3;
 
 import "./StackTraceContract.sol";
@@ -9,7 +10,7 @@ contract GreetCounter {
 
     StackTraceContract s;
 
-    constructor() public {
+    constructor() {
         s = new StackTraceContract();
     }
 

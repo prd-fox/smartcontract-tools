@@ -2,11 +2,7 @@ const fs = require("fs");
 
 let name = process.argv[2];
 
-console.log(name);
-
 const contract = JSON.parse(fs.readFileSync("./build/contracts/" + name + ".json").toString());
-
-// const contract2 = JSON.parse(fs.readFileSync("./artifacts/contracts/" + name + ".sol/" + name + ".json").toString());
 
 name = "YourContract";
 
